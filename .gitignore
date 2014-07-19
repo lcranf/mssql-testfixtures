@@ -1,0 +1,8 @@
+.idea
+node_modules
+.tmp
+.sass-cache
+heroku
+dist
+.DS_Store
+tests/config.js
