@@ -28,7 +28,7 @@ describe('Executing stream query against mssql using mssql node module', functio
               throw err;
           });
 
-          request.on('done', function(returnedValue) {
+          request.on('done', function() {
               done();
           });
       });
